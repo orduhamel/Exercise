@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Karla:wght@700&display=swap');
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Forum', cursive;
+  background: #DDDDDD;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h4 {
+  font-family: 'Karla', sans-serif;
+}
+
+.grid {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Côté gauche */
+.gauche {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.gauche header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+/*.cont-cube {
+  display: flex:
+  justify-content: center;
+  align-items: center;
+}*/
+
+.cube-haut-g {
+  font-size: 20px;
+  height: 80px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.barres-jum {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 20px;
+  width: 200px;
+  margin-left: 40px;
+}
+.barre {
+  width: 150px;
+  height: 4px;
+  background: black;
+}
+
+.barre1 {
+  align-self: flex-start;
+}
+
+.barre2 {
+  align-self: flex-end;
+}
+
+.gauche article {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  justify-content: flex-start;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+/* Right-hand side */
+
+.droite {
+  width: 100%;
+  height: 100%;
+}
+.d1 {
+  background: url('images/BMW507.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
